@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+ainex_vision/__init__.py
+ainex_vision/camera_sub.py
+build/ainex_vision/ainex_vision.egg-info/PKG-INFO
+build/ainex_vision/ainex_vision.egg-info/SOURCES.txt
+build/ainex_vision/ainex_vision.egg-info/dependency_links.txt
+build/ainex_vision/ainex_vision.egg-info/entry_points.txt
+build/ainex_vision/ainex_vision.egg-info/requires.txt
+build/ainex_vision/ainex_vision.egg-info/top_level.txt
+build/ainex_vision/ainex_vision.egg-info/zip-safe
+resource/ainex_vision
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,1 @@
+/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service/rosidl_generator_c/servo_service/msg/detail/set_posture__type_support.h

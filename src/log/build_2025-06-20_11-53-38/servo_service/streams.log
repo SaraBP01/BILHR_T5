@@ -1,0 +1,497 @@
+[0.025s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service
+[0.305s] -- The C compiler identification is GNU 13.3.0
+[0.305s] -- The CXX compiler identification is GNU 13.3.0
+[0.305s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.306s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.423s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.675s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.829s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.892s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.915s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.057s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.994s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.797s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.971s] -- Found PythonExtra: /usr/bin/python3  
+[4.496s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.580s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.616s] -- Added test 'lint_cmake' to check CMake code style
+[4.618s] -- Added test 'xmllint' to check XML markup files
+[4.625s] -- Configuring done (4.6s)
+[4.700s] -- Generating done (0.1s)
+[4.716s] -- Build files have been written to: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service
+[4.726s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service
+[4.727s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service -- -j8 -l8
+[4.791s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.802s] [  1%] Built target ament_cmake_python_symlink_servo_service
+[5.092s] running egg_info
+[5.093s] creating servo_service.egg-info
+[5.127s] writing servo_service.egg-info/PKG-INFO
+[5.127s] writing dependency_links to servo_service.egg-info/dependency_links.txt
+[5.127s] writing top-level names to servo_service.egg-info/top_level.txt
+[5.127s] writing manifest file 'servo_service.egg-info/SOURCES.txt'
+[5.129s] [  1%] Built target servo_service__rosidl_generator_type_description
+[5.142s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.156s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.208s] reading manifest file 'servo_service.egg-info/SOURCES.txt'
+[5.208s] writing manifest file 'servo_service.egg-info/SOURCES.txt'
+[5.245s] [  2%] Built target ament_cmake_python_build_servo_service_egg
+[6.160s] [  2%] Built target servo_service__cpp
+[6.437s] [  4%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/change_servo_positions__type_support.c.o[0m
+[6.437s] [  4%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/change_servo_positions__description.c.o[0m
+[6.437s] [  5%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_servo_positions__type_support.c.o[0m
+[6.437s] [  4%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_servo_positions__functions.c.o[0m
+[6.438s] [  7%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__description.c.o[0m
+[6.438s] [  7%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/change_servo_positions__functions.c.o[0m
+[6.438s] [  8%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__functions.c.o[0m
+[6.438s] [  4%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_servo_positions__description.c.o[0m
+[6.501s] [  9%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/get_servo_positions__description.c.o[0m
+[6.507s] [  9%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_joint_lock__type_support.c.o[0m
+[6.511s] [ 10%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/get_servo_positions__functions.c.o[0m
+[6.513s] [ 11%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/get_servo_positions__type_support.c.o[0m
+[6.518s] [ 11%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_posture__description.c.o[0m
+[6.532s] [ 12%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_posture__functions.c.o[0m
+[6.536s] [ 13%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/msg/detail/set_posture__type_support.c.o[0m
+[6.550s] [ 14%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_lock__description.c.o[0m
+[6.570s] [ 14%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_lock__functions.c.o[0m
+[6.575s] [ 15%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_lock__type_support.c.o[0m
+[6.579s] [ 16%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__description.c.o[0m
+[6.601s] [ 16%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__type_support.c.o[0m
+[6.604s] [ 17%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_temp__functions.c.o[0m
+[6.618s] [ 18%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_deviation__description.c.o[0m
+[6.627s] [ 19%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_deviation__functions.c.o[0m
+[6.652s] [ 20%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_deviation__type_support.c.o[0m
+[6.652s] [ 20%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_voltage__description.c.o[0m
+[6.673s] [ 21%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_voltage__functions.c.o[0m
+[6.690s] [ 22%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/servo_voltage__type_support.c.o[0m
+[6.712s] [ 23%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_position__description.c.o[0m
+[6.717s] [ 23%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_position__functions.c.o[0m
+[6.740s] [ 25%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_range__description.c.o[0m
+[6.740s] [ 25%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_position__type_support.c.o[0m
+[6.748s] [ 26%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_range__functions.c.o[0m
+[6.762s] [ 26%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_c.dir/rosidl_generator_c/servo_service/srv/detail/joint_range__type_support.c.o[0m
+[6.856s] [ 27%] [32m[1mLinking C shared library libservo_service__rosidl_generator_c.so[0m
+[6.908s] [ 27%] Built target servo_service__rosidl_generator_c
+[6.924s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.924s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.924s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.925s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.925s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.926s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.565s] [ 31%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/change_servo_positions__type_support.cpp.o[0m
+[7.585s] [ 32%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/set_servo_positions__type_support.cpp.o[0m
+[7.588s] [ 33%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/set_joint_lock__type_support.cpp.o[0m
+[7.628s] [ 34%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/change_servo_positions__type_support.cpp.o[0m
+[7.662s] [ 35%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/set_servo_positions__type_support.cpp.o[0m
+[7.675s] [ 36%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/get_servo_positions__type_support.cpp.o[0m
+[7.676s] [ 37%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/set_joint_lock__type_support.cpp.o[0m
+[7.748s] [ 37%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/msg/set_posture__type_support.cpp.o[0m
+[7.827s] [ 38%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/joint_lock__type_support.cpp.o[0m
+[7.913s] [ 39%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/servo_temp__type_support.cpp.o[0m
+[8.018s] [ 40%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/servo_deviation__type_support.cpp.o[0m
+[8.128s] [ 40%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/servo_voltage__type_support.cpp.o[0m
+[8.247s] [ 41%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/joint_position__type_support.cpp.o[0m
+[8.250s] [ 41%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/get_servo_positions__type_support.cpp.o[0m
+[8.288s] [ 42%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_service/srv/joint_range__type_support.cpp.o[0m
+[8.339s] [ 43%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/msg/set_posture__type_support.cpp.o[0m
+[8.347s] [ 44%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/joint_lock__type_support.cpp.o[0m
+[8.361s] [ 45%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/change_servo_positions__type_support.cpp.o[0m
+[8.383s] [ 46%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_c.so[0m
+[8.470s] [ 47%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/change_servo_positions__type_support.c.o[0m
+[8.509s] [ 47%] Built target servo_service__rosidl_typesupport_c
+[8.533s] [ 48%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/set_servo_positions__type_support.c.o[0m
+[8.558s] [ 48%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/servo_temp__type_support.cpp.o[0m
+[8.635s] [ 49%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/set_joint_lock__type_support.c.o[0m
+[8.752s] [ 49%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/get_servo_positions__type_support.c.o[0m
+[8.846s] [ 50%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/set_servo_positions__type_support.cpp.o[0m
+[8.891s] [ 51%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/msg/detail/set_posture__type_support.c.o[0m
+[8.976s] [ 52%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/joint_lock__type_support.c.o[0m
+[8.998s] [ 52%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/set_joint_lock__type_support.cpp.o[0m
+[9.100s] [ 53%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/servo_temp__type_support.c.o[0m
+[9.107s] [ 53%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/change_servo_positions__type_support.cpp.o[0m
+[9.107s] [ 53%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/servo_deviation__type_support.c.o[0m
+[9.133s] [ 54%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/servo_deviation__type_support.cpp.o[0m
+[9.203s] [ 55%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/change_servo_positions__type_support_c.cpp.o[0m
+[9.210s] [ 56%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/servo_voltage__type_support.cpp.o[0m
+[9.213s] [ 57%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/servo_voltage__type_support.c.o[0m
+[9.314s] [ 58%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/joint_position__type_support.c.o[0m
+[9.415s] [ 59%] [32mBuilding C object CMakeFiles/servo_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_service/srv/detail/joint_range__type_support.c.o[0m
+[9.471s] [ 60%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/set_servo_positions__type_support.cpp.o[0m
+[9.529s] [ 60%] [32m[1mLinking C shared library libservo_service__rosidl_typesupport_introspection_c.so[0m
+[9.600s] [ 61%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/get_servo_positions__type_support.cpp.o[0m
+[9.610s] [ 61%] Built target servo_service__rosidl_typesupport_introspection_c
+[9.639s] [ 61%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/set_servo_positions__type_support_c.cpp.o[0m
+[9.673s] [ 62%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/msg/detail/set_posture__type_support.cpp.o[0m
+[10.070s] [ 63%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/joint_position__type_support.cpp.o[0m
+[10.079s] [ 64%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/set_joint_lock__type_support.cpp.o[0m
+[10.109s] [ 65%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/joint_lock__type_support.cpp.o[0m
+[10.279s] [ 66%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/set_joint_lock__type_support_c.cpp.o[0m
+[10.295s] [ 66%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_service/srv/joint_range__type_support.cpp.o[0m
+[10.383s] [ 67%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/get_servo_positions__type_support_c.cpp.o[0m
+[10.555s] [ 68%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/get_servo_positions__type_support.cpp.o[0m
+[10.625s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/msg/detail/set_posture__type_support_c.cpp.o[0m
+[10.995s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/joint_lock__type_support_c.cpp.o[0m
+[11.056s] [ 69%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/servo_temp__type_support.cpp.o[0m
+[11.078s] [ 70%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/servo_temp__type_support_c.cpp.o[0m
+[11.125s] [ 71%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_cpp.so[0m
+[11.257s] [ 72%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/servo_deviation__type_support.cpp.o[0m
+[11.306s] [ 73%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/servo_voltage__type_support.cpp.o[0m
+[11.340s] [ 73%] Built target servo_service__rosidl_typesupport_cpp
+[11.352s] [ 74%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/joint_position__type_support.cpp.o[0m
+[11.556s] [ 74%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/msg/detail/dds_fastrtps/set_posture__type_support.cpp.o[0m
+[11.569s] [ 74%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_service/srv/detail/joint_range__type_support.cpp.o[0m
+[11.981s] [ 75%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/joint_lock__type_support.cpp.o[0m
+[12.024s] [ 76%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/servo_deviation__type_support_c.cpp.o[0m
+[12.083s] [ 77%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/servo_voltage__type_support_c.cpp.o[0m
+[12.227s] [ 78%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/servo_temp__type_support.cpp.o[0m
+[12.395s] [ 78%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/joint_position__type_support_c.cpp.o[0m
+[12.473s] [ 79%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_service/srv/detail/joint_range__type_support_c.cpp.o[0m
+[12.490s] [ 80%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/servo_deviation__type_support.cpp.o[0m
+[12.746s] [ 81%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_introspection_cpp.so[0m
+[12.920s] [ 81%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/servo_voltage__type_support.cpp.o[0m
+[13.016s] [ 81%] Built target servo_service__rosidl_typesupport_introspection_cpp
+[13.022s] [ 82%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/joint_position__type_support.cpp.o[0m
+[13.037s] [ 83%] [32mBuilding CXX object CMakeFiles/servo_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_service/srv/detail/dds_fastrtps/joint_range__type_support.cpp.o[0m
+[13.485s] [ 84%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_fastrtps_c.so[0m
+[13.657s] [ 84%] Built target servo_service__rosidl_typesupport_fastrtps_c
+[14.080s] [ 85%] [32m[1mLinking CXX shared library libservo_service__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.201s] [ 85%] Built target servo_service__rosidl_typesupport_fastrtps_cpp
+[14.226s] [ 85%] Built target servo_service
+[14.250s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.725s] [ 86%] Built target servo_service__py
+[15.756s] [ 89%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_set_servo_positions_s.c.o[0m
+[15.756s] [ 89%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_get_servo_positions_s.c.o[0m
+[15.756s] [ 89%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_change_servo_positions_s.c.o[0m
+[15.756s] [ 91%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_set_posture_s.c.o[0m
+[15.756s] [ 91%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_joint_lock_s.c.o[0m
+[15.757s] [ 91%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/msg/_set_joint_lock_s.c.o[0m
+[15.758s] [ 91%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_servo_temp_s.c.o[0m
+[15.758s] [ 92%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_servo_deviation_s.c.o[0m
+[16.044s] [ 93%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_joint_position_s.c.o[0m
+[16.050s] [ 94%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_servo_voltage_s.c.o[0m
+[16.060s] [ 94%] [32mBuilding C object CMakeFiles/servo_service__rosidl_generator_py.dir/rosidl_generator_py/servo_service/srv/_joint_range_s.c.o[0m
+[16.262s] [ 95%] [32m[1mLinking C shared library libservo_service__rosidl_generator_py.so[0m
+[16.322s] [ 95%] Built target servo_service__rosidl_generator_py
+[16.345s] [ 97%] [32mBuilding C object CMakeFiles/servo_service_s__rosidl_typesupport_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c.o[0m
+[16.346s] [ 97%] [32mBuilding C object CMakeFiles/servo_service_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.346s] [ 97%] [32mBuilding C object CMakeFiles/servo_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.546s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so[0m
+[16.548s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_c.so[0m
+[16.560s] [100%] [32m[1mLinking C shared module rosidl_generator_py/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.590s] [100%] Built target servo_service_s__rosidl_typesupport_c
+[16.591s] [100%] Built target servo_service_s__rosidl_typesupport_introspection_c
+[16.605s] [100%] Built target servo_service_s__rosidl_typesupport_fastrtps_c
+[16.621s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service -- -j8 -l8
+[16.632s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service
+[16.641s] -- Install configuration: ""
+[16.642s] -- Execute custom install script
+[16.642s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/ament_index/resource_index/rosidl_interfaces/servo_service
+[16.653s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/ChangeServoPositions.json
+[16.663s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetServoPositions.json
+[16.674s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetJointLock.json
+[16.684s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/GetServoPositions.json
+[16.694s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetPosture.json
+[16.705s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointLock.json
+[16.715s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoTemp.json
+[16.726s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoDeviation.json
+[16.736s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoVoltage.json
+[16.746s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointPosition.json
+[16.757s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointRange.json
+[16.768s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/change_servo_positions.h
+[16.779s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__functions.h
+[16.790s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__struct.h
+[16.801s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__type_support.h
+[16.811s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__functions.h
+[16.821s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__struct.h
+[16.831s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__type_support.h
+[16.843s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__functions.h
+[16.853s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__struct.h
+[16.863s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__type_support.h
+[16.873s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__functions.h
+[16.884s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__struct.h
+[16.895s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__type_support.h
+[16.905s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__functions.h
+[16.915s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__struct.h
+[16.926s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__type_support.h
+[16.936s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/get_servo_positions.h
+[16.947s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/rosidl_generator_c__visibility_control.h
+[16.957s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/set_joint_lock.h
+[16.967s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/set_posture.h
+[16.978s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/set_servo_positions.h
+[16.990s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__functions.h
+[17.000s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__struct.h
+[17.010s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__type_support.h
+[17.021s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__functions.h
+[17.031s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__struct.h
+[17.041s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__type_support.h
+[17.051s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__functions.h
+[17.063s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__struct.h
+[17.073s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__type_support.h
+[17.084s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__functions.h
+[17.094s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__struct.h
+[17.104s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__type_support.h
+[17.115s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__functions.h
+[17.125s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__struct.h
+[17.135s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__type_support.h
+[17.145s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__functions.h
+[17.156s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__struct.h
+[17.165s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__type_support.h
+[17.175s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/joint_lock.h
+[17.185s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/joint_position.h
+[17.197s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/joint_range.h
+[17.207s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/servo_deviation.h
+[17.217s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/servo_temp.h
+[17.227s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/servo_voltage.h
+[17.238s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/library_path.sh
+[17.248s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/library_path.dsv
+[17.259s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_fastrtps_c.h
+[17.270s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_fastrtps_c.h
+[17.281s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_fastrtps_c.h
+[17.292s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_fastrtps_c.h
+[17.302s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_fastrtps_c.h
+[17.312s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.322s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_fastrtps_c.h
+[17.334s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_fastrtps_c.h
+[17.344s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_fastrtps_c.h
+[17.354s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_fastrtps_c.h
+[17.364s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_fastrtps_c.h
+[17.375s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_fastrtps_c.h
+[17.386s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/change_servo_positions.hpp
+[17.396s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__builder.hpp
+[17.406s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__struct.hpp
+[17.418s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__traits.hpp
+[17.428s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__type_support.hpp
+[17.438s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__builder.hpp
+[17.448s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__struct.hpp
+[17.459s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__traits.hpp
+[17.469s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__type_support.hpp
+[17.479s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__builder.hpp
+[17.491s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__struct.hpp
+[17.503s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__traits.hpp
+[17.515s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__type_support.hpp
+[17.526s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__builder.hpp
+[17.536s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__struct.hpp
+[17.547s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__traits.hpp
+[17.558s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__type_support.hpp
+[17.568s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__builder.hpp
+[17.579s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__struct.hpp
+[17.589s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__traits.hpp
+[17.600s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__type_support.hpp
+[17.610s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/get_servo_positions.hpp
+[17.620s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.629s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/set_joint_lock.hpp
+[17.641s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/set_posture.hpp
+[17.651s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/set_servo_positions.hpp
+[17.661s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__builder.hpp
+[17.671s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__struct.hpp
+[17.683s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__traits.hpp
+[17.694s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__type_support.hpp
+[17.703s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__builder.hpp
+[17.714s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__struct.hpp
+[17.724s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__traits.hpp
+[17.735s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__type_support.hpp
+[17.745s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__builder.hpp
+[17.755s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__struct.hpp
+[17.765s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__traits.hpp
+[17.777s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__type_support.hpp
+[17.787s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__builder.hpp
+[17.797s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__struct.hpp
+[17.808s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__traits.hpp
+[17.819s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__type_support.hpp
+[17.829s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__builder.hpp
+[17.839s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__struct.hpp
+[17.849s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__traits.hpp
+[17.861s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__type_support.hpp
+[17.871s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__builder.hpp
+[17.882s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__struct.hpp
+[17.893s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__traits.hpp
+[17.903s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__type_support.hpp
+[17.914s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/joint_lock.hpp
+[17.924s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/joint_position.hpp
+[17.935s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/joint_range.hpp
+[17.945s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/servo_deviation.hpp
+[17.956s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/servo_temp.hpp
+[17.966s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/servo_voltage.hpp
+[17.977s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[17.988s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[17.999s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_fastrtps_cpp.hpp
+[18.009s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_fastrtps_cpp.hpp
+[18.019s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[18.029s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.041s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_fastrtps_cpp.hpp
+[18.051s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[18.061s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_fastrtps_cpp.hpp
+[18.071s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_fastrtps_cpp.hpp
+[18.083s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_fastrtps_cpp.hpp
+[18.092s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_fastrtps_cpp.hpp
+[18.103s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_introspection_c.h
+[18.113s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_introspection_c.h
+[18.124s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_introspection_c.h
+[18.134s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_introspection_c.h
+[18.144s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_introspection_c.h
+[18.154s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.165s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_introspection_c.h
+[18.176s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_introspection_c.h
+[18.187s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_introspection_c.h
+[18.197s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_introspection_c.h
+[18.206s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_introspection_c.h
+[18.217s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_introspection_c.h
+[18.228s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/change_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[18.237s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/get_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[18.248s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_joint_lock__rosidl_typesupport_introspection_cpp.hpp
+[18.259s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_posture__rosidl_typesupport_introspection_cpp.hpp
+[18.269s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/msg/detail/set_servo_positions__rosidl_typesupport_introspection_cpp.hpp
+[18.280s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_lock__rosidl_typesupport_introspection_cpp.hpp
+[18.290s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_position__rosidl_typesupport_introspection_cpp.hpp
+[18.302s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/joint_range__rosidl_typesupport_introspection_cpp.hpp
+[18.311s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_deviation__rosidl_typesupport_introspection_cpp.hpp
+[18.321s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_temp__rosidl_typesupport_introspection_cpp.hpp
+[18.331s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/include/servo_service/servo_service/srv/detail/servo_voltage__rosidl_typesupport_introspection_cpp.hpp
+[18.341s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/pythonpath.sh
+[18.353s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/pythonpath.dsv
+[18.363s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/PKG-INFO
+[18.374s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/SOURCES.txt
+[18.384s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/dependency_links.txt
+[18.395s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service-0.0.0-py3.12.egg-info/top_level.txt
+[18.407s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/__init__.py
+[18.417s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_c.c
+[18.427s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.439s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/_servo_service_s.ep.rosidl_typesupport_introspection_c.c
+[18.449s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/__init__.py
+[18.459s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions.py
+[18.469s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions_s.c
+[18.481s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions.py
+[18.491s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions_s.c
+[18.502s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock.py
+[18.512s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock_s.c
+[18.523s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture.py
+[18.534s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture_s.c
+[18.544s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions.py
+[18.554s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions_s.c
+[18.565s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_c.so
+[18.576s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so
+[18.586s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so
+[18.597s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/__init__.py
+[18.606s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock.py
+[18.618s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock_s.c
+[18.628s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position.py
+[18.639s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position_s.c
+[18.649s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range.py
+[18.661s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range_s.c
+[18.671s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation.py
+[18.682s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation_s.c
+[18.692s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp.py
+[18.703s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp_s.c
+[18.713s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage.py
+[18.722s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage_s.c
+[18.733s] -- Up-to-date symlink: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_fastrtps_c.so
+[18.733s] -- Up-to-date symlink: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_introspection_c.so
+[18.733s] -- Up-to-date symlink: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/servo_service_s__rosidl_typesupport_c.so
+[18.734s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/ChangeServoPositions.idl
+[18.745s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetServoPositions.idl
+[18.755s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetJointLock.idl
+[18.765s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/GetServoPositions.idl
+[18.775s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetPosture.idl
+[18.787s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointLock.idl
+[18.797s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoTemp.idl
+[18.808s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoDeviation.idl
+[18.818s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoVoltage.idl
+[18.828s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointPosition.idl
+[18.839s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointRange.idl
+[18.850s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/ChangeServoPositions.msg
+[18.860s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetServoPositions.msg
+[18.870s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetJointLock.msg
+[18.881s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/GetServoPositions.msg
+[18.891s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/msg/SetPosture.msg
+[18.901s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointLock.srv
+[18.911s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoTemp.srv
+[18.922s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoDeviation.srv
+[18.932s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/ServoVoltage.srv
+[18.942s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointPosition.srv
+[18.957s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/srv/JointRange.srv
+[18.969s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/ament_index/resource_index/package_run_dependencies/servo_service
+[18.980s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/ament_index/resource_index/parent_prefix_path/servo_service
+[18.990s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/ament_prefix_path.sh
+[19.002s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/ament_prefix_path.dsv
+[19.014s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/path.sh
+[19.024s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/environment/path.dsv
+[19.035s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/local_setup.bash
+[19.045s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/local_setup.sh
+[19.056s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/local_setup.zsh
+[19.066s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/local_setup.dsv
+[19.077s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.dsv
+[19.088s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/ament_index/resource_index/packages/servo_service
+[19.099s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/rosidl_cmake-extras.cmake
+[19.109s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.120s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.130s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/ament_cmake_export_libraries-extras.cmake
+[19.141s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/ament_cmake_export_targets-extras.cmake
+[19.151s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.162s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.172s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_serviceConfig.cmake
+[19.183s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_serviceConfig-version.cmake
+[19.194s] -- Symlinking: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.xml
+[19.204s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_generator_c.so
+[19.205s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_generator_c.so" to ""
+[19.206s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_c.so
+[19.206s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_c.so" to ""
+[19.207s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_cpp.so
+[19.208s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.208s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_c.so
+[19.209s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_c.so" to ""
+[19.209s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_c.so
+[19.210s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_c.so" to ""
+[19.210s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_cpp.so
+[19.212s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_introspection_cpp.so" to ""
+[19.212s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_cpp.so
+[19.213s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_typesupport_cpp.so" to ""
+[19.287s] Listing '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service'...
+[19.287s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/__init__.py'...
+[19.287s] Listing '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg'...
+[19.287s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/__init__.py'...
+[19.287s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_change_servo_positions.py'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_get_servo_positions.py'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_joint_lock.py'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_posture.py'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/msg/_set_servo_positions.py'...
+[19.288s] Listing '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/__init__.py'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_lock.py'...
+[19.288s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_position.py'...
+[19.289s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_joint_range.py'...
+[19.289s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_deviation.py'...
+[19.289s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_temp.py'...
+[19.289s] Compiling '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages/servo_service/srv/_servo_voltage.py'...
+[19.294s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_generator_py.so
+[19.295s] -- Set non-toolchain portion of runtime path of "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/libservo_service__rosidl_generator_py.so" to ""
+[19.296s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cExport.cmake
+[19.296s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cExport-noconfig.cmake
+[19.296s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cExport.cmake
+[19.296s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.296s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_cppExport.cmake
+[19.297s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.297s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.297s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cExport.cmake
+[19.297s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.297s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cExport.cmake
+[19.297s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cExport-noconfig.cmake
+[19.298s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cppExport.cmake
+[19.298s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.298s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cppExport.cmake
+[19.298s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/servo_service__rosidl_typesupport_cppExport-noconfig.cmake
+[19.298s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_pyExport.cmake
+[19.299s] -- Installing: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/cmake/export_servo_service__rosidl_generator_pyExport-noconfig.cmake
+[19.301s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/install/ainex_neural_control:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/BILHR-T2/ainex_bilhr_ws/src/install/ainex_vision:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service

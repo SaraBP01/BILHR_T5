@@ -1,0 +1,44 @@
+running develop
+Removing /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex-neural-control.egg-link (link to .)
+running egg_info
+writing ../build/ainex_neural_control/ainex_neural_control.egg-info/PKG-INFO
+writing dependency_links to ../build/ainex_neural_control/ainex_neural_control.egg-info/dependency_links.txt
+writing entry points to ../build/ainex_neural_control/ainex_neural_control.egg-info/entry_points.txt
+writing requirements to ../build/ainex_neural_control/ainex_neural_control.egg-info/requires.txt
+writing top-level names to ../build/ainex_neural_control/ainex_neural_control.egg-info/top_level.txt
+reading manifest file '../build/ainex_neural_control/ainex_neural_control.egg-info/SOURCES.txt'
+writing manifest file '../build/ainex_neural_control/ainex_neural_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/rl_dt_penalty_node.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/robot_neural_controller.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/rl_dt_penalty_kick.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/robot_cmac_controller.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/cmac.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/__init__.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/rl_dt_penalty_launch.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/manual_reward_node.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build/lib/ainex_neural_control/cmac_network.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/rl_dt_penalty_node.py to rl_dt_penalty_node.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/robot_neural_controller.py to robot_neural_controller.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/rl_dt_penalty_kick.py to rl_dt_penalty_kick.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/robot_cmac_controller.py to robot_cmac_controller.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/cmac.py to cmac.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/rl_dt_penalty_launch.py to rl_dt_penalty_launch.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/manual_reward_node.py to manual_reward_node.cpython-312.pyc
+byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/cmac_network.py to cmac_network.cpython-312.pyc
+running install_data
+copying resource/ainex_neural_control -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control
+running install_egg_info
+Copying ../build/ainex_neural_control/ainex_neural_control.egg-info to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing manual_reward_node script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+Installing rl_dt_penalty_node script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+Installing robot_cmac_controller script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+Installing robot_neural_controller script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+writing list of installed files to '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/install.log'

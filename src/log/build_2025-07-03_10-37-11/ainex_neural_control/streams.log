@@ -1,0 +1,22 @@
+[1.232s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build --no-deps symlink_data --force
+[1.617s] running develop
+[1.911s] running egg_info
+[1.940s] writing ainex_neural_control.egg-info/PKG-INFO
+[1.941s] writing dependency_links to ainex_neural_control.egg-info/dependency_links.txt
+[1.941s] writing entry points to ainex_neural_control.egg-info/entry_points.txt
+[1.941s] writing requirements to ainex_neural_control.egg-info/requires.txt
+[1.941s] writing top-level names to ainex_neural_control.egg-info/top_level.txt
+[1.988s] reading manifest file 'ainex_neural_control.egg-info/SOURCES.txt'
+[1.989s] writing manifest file 'ainex_neural_control.egg-info/SOURCES.txt'
+[2.015s] running build_ext
+[2.015s] Creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex-neural-control.egg-link (link to .)
+[2.016s] Installing manual_reward_node script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+[2.016s] Installing rl_dt_penalty_node script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+[2.016s] Installing robot_cmac_controller script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+[2.017s] Installing robot_neural_controller script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/ainex_neural_control
+[2.017s] 
+[2.017s] Installed /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control
+[2.017s] running symlink_data
+[2.018s] symbolically linking /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/resource/ainex_neural_control -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ament_index/resource_index/packages
+[2.018s] symbolically linking /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/package.xml -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control
+[2.048s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build --no-deps symlink_data --force

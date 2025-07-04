@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ainex-neural-control
+Version: 0.0.0
+Summary: Neural vision package with MLP and CMAC controllers
+Maintainer: your_name
+Maintainer-email: esther.utasa@gmail.com
+License: TODO: License declaration

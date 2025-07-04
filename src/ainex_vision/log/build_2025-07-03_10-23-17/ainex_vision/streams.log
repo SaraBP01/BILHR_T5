@@ -1,0 +1,37 @@
+[0.865s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ainex_vision build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/install.log --single-version-externally-managed install_data
+[1.150s] running egg_info
+[1.151s] creating build/ainex_vision/ainex_vision.egg-info
+[1.172s] writing build/ainex_vision/ainex_vision.egg-info/PKG-INFO
+[1.173s] writing dependency_links to build/ainex_vision/ainex_vision.egg-info/dependency_links.txt
+[1.173s] writing entry points to build/ainex_vision/ainex_vision.egg-info/entry_points.txt
+[1.173s] writing requirements to build/ainex_vision/ainex_vision.egg-info/requires.txt
+[1.173s] writing top-level names to build/ainex_vision/ainex_vision.egg-info/top_level.txt
+[1.173s] writing manifest file 'build/ainex_vision/ainex_vision.egg-info/SOURCES.txt'
+[1.218s] reading manifest file 'build/ainex_vision/ainex_vision.egg-info/SOURCES.txt'
+[1.219s] writing manifest file 'build/ainex_vision/ainex_vision.egg-info/SOURCES.txt'
+[1.219s] running build
+[1.219s] running build_py
+[1.219s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build
+[1.219s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build/lib
+[1.220s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build/lib/ainex_vision
+[1.220s] copying ainex_vision/__init__.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build/lib/ainex_vision
+[1.220s] copying ainex_vision/camera_sub.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build/lib/ainex_vision
+[1.220s] running install
+[1.226s] running install_lib
+[1.249s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex_vision
+[1.249s] copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build/lib/ainex_vision/__init__.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex_vision
+[1.249s] copying /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build/lib/ainex_vision/camera_sub.py -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex_vision
+[1.250s] byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex_vision/__init__.py to __init__.cpython-312.pyc
+[1.250s] byte-compiling /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex_vision/camera_sub.py to camera_sub.cpython-312.pyc
+[1.251s] running install_data
+[1.252s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/share/ament_index
+[1.252s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/share/ament_index/resource_index
+[1.252s] creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/share/ament_index/resource_index/packages
+[1.252s] copying resource/ainex_vision -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/share/ament_index/resource_index/packages
+[1.252s] copying package.xml -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/share/ainex_vision
+[1.252s] running install_egg_info
+[1.276s] Copying build/ainex_vision/ainex_vision.egg-info to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages/ainex_vision-0.0.0-py3.12.egg-info
+[1.277s] running install_scripts
+[1.428s] Installing camera_sub script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/ainex_vision
+[1.429s] writing list of installed files to '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/install.log'
+[1.453s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ainex_vision build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision/build/ainex_vision/install.log --single-version-externally-managed install_data

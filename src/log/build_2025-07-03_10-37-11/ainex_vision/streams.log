@@ -1,0 +1,19 @@
+[1.160s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/build --no-deps symlink_data --force
+[1.544s] running develop
+[1.852s] running egg_info
+[1.876s] writing ainex_vision.egg-info/PKG-INFO
+[1.876s] writing dependency_links to ainex_vision.egg-info/dependency_links.txt
+[1.876s] writing entry points to ainex_vision.egg-info/entry_points.txt
+[1.877s] writing requirements to ainex_vision.egg-info/requires.txt
+[1.877s] writing top-level names to ainex_vision.egg-info/top_level.txt
+[1.934s] reading manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.935s] writing manifest file 'ainex_vision.egg-info/SOURCES.txt'
+[1.962s] running build_ext
+[1.962s] Creating /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages/ainex-vision.egg-link (link to .)
+[1.962s] Installing camera_sub script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/ainex_vision
+[1.963s] 
+[1.963s] Installed /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision
+[1.963s] running symlink_data
+[1.963s] symbolically linking /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/resource/ainex_vision -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ament_index/resource_index/packages
+[1.963s] symbolically linking /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/package.xml -> /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision
+[1.995s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/build --no-deps symlink_data --force

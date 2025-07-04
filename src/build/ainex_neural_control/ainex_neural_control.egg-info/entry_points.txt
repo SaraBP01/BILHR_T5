@@ -1,0 +1,5 @@
+[console_scripts]
+manual_reward_node = ainex_neural_control.manual_reward_node:main
+rl_dt_penalty_node = ainex_neural_control.rl_dt_penalty_node:main
+robot_cmac_controller = ainex_neural_control.robot_cmac_controller:main
+robot_neural_controller = ainex_neural_control.robot_neural_controller:main

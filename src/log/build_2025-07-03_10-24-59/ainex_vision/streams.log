@@ -1,0 +1,21 @@
+[1.628s] Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_vision build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/install.log --single-version-externally-managed install_data
+[2.092s] running egg_info
+[2.128s] writing ../build/ainex_vision/ainex_vision.egg-info/PKG-INFO
+[2.128s] writing dependency_links to ../build/ainex_vision/ainex_vision.egg-info/dependency_links.txt
+[2.128s] writing entry points to ../build/ainex_vision/ainex_vision.egg-info/entry_points.txt
+[2.129s] writing requirements to ../build/ainex_vision/ainex_vision.egg-info/requires.txt
+[2.129s] writing top-level names to ../build/ainex_vision/ainex_vision.egg-info/top_level.txt
+[2.203s] reading manifest file '../build/ainex_vision/ainex_vision.egg-info/SOURCES.txt'
+[2.206s] writing manifest file '../build/ainex_vision/ainex_vision.egg-info/SOURCES.txt'
+[2.206s] running build
+[2.206s] running build_py
+[2.207s] running install
+[2.217s] running install_lib
+[2.258s] running install_data
+[2.258s] running install_egg_info
+[2.294s] removing '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages/ainex_vision-0.0.0-py3.12.egg-info' (and everything under it)
+[2.295s] Copying ../build/ainex_vision/ainex_vision.egg-info to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages/ainex_vision-0.0.0-py3.12.egg-info
+[2.296s] running install_scripts
+[2.535s] Installing camera_sub script to /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/ainex_vision
+[2.535s] writing list of installed files to '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/install.log'
+[2.579s] Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_vision build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/install.log --single-version-externally-managed install_data

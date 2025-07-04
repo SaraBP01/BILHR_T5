@@ -1,0 +1,5 @@
+  File "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages/ainex_neural_control/robot_neural_controller.py", line 204
+    >>>>>>> 95ef6c8c9214baac116108eb514714625ed3fa97
+             ^
+SyntaxError: invalid decimal literal
+

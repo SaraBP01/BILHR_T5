@@ -1,0 +1,294 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a6d4f2b9dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a6d4fdef3b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a6d4fdef3b0>>, mixin_verb=('build',))
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_motion) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_motion' with type 'ros.ament_python' and name 'ainex_motion'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_neural_control) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_neural_control' with type 'ros.ament_python' and name 'ainex_neural_control'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(ainex_vision) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'ainex_vision' with type 'ros.ament_python' and name 'ainex_vision'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(servo_service) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'servo_service' with type 'ros.ament_cmake' and name 'servo_service'
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install
+[0.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/jazzy
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_neural_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_neural_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control', 'merge_install': False, 'path': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_neural_control', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'ainex_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision', 'merge_install': False, 'path': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'servo_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'servo_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service', 'merge_install': False, 'path': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'ainex_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'ainex_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion', 'merge_install': False, 'path': '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_motion', 'symlink_install': False, 'test_result_base': None}
+[0.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service'
+[0.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_neural_control' with build type 'ament_python'
+[0.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_neural_control', 'ament_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/hook/ament_prefix_path.ps1'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/hook/ament_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision' with build type 'ament_python'
+[0.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'ament_prefix_path')
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.dsv'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/hook/ament_prefix_path.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service -- -j8 -l8
+[0.556s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_neural_control'
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.817s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision'
+[0.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service -- -j8 -l8
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_service)
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/servo_service
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service' for CMake module files
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service' for CMake config files
+[0.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.sh'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib'
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'ld_library_path_lib')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/pkgconfig/servo_service.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages'
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'pythonpath')
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/pythonpath.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/pythonpath.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/pythonpath.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.sh'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.bash'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.zsh'
+[0.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/colcon-core/packages/servo_service)
+[0.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_service)
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service' for CMake module files
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service' for CMake config files
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'cmake_prefix_path')
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib'
+[0.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'ld_library_path_lib')
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/ld_library_path_lib.sh'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/bin'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/pkgconfig/servo_service.pc'
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages'
+[0.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_service', 'pythonpath')
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/pythonpath.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/pythonpath.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/hook/pythonpath.sh'
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/bin'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.bash'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/servo_service/package.zsh'
+[0.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/share/colcon-core/packages/servo_service)
+[0.992s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_motion' with build type 'ament_python'
+[0.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'ament_prefix_path')
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/hook/ament_prefix_path.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.247s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_motion'
+[1.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_vision build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/install.log --single-version-externally-managed install_data
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_neural_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_neural_control build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/install.log --single-version-externally-managed install_data
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/servo_service/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_motion build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion/install.log --single-version-externally-managed install_data
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control' for CMake module files
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_neural_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_neural_control build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control/install.log --single-version-externally-managed install_data
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control' for CMake config files
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/bin'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/pkgconfig/ainex_neural_control.pc'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages'
+[2.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_neural_control', 'pythonpath')
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/hook/pythonpath.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/hook/pythonpath.dsv'
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/hook/pythonpath.sh'
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/bin'
+[2.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_neural_control)
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/package.ps1'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/package.dsv'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/package.sh'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/package.bash'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/ainex_neural_control/package.zsh'
+[2.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/share/colcon-core/packages/ainex_neural_control)
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision' for CMake module files
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_vision build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision/install.log --single-version-externally-managed install_data
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision' for CMake config files
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib'
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/bin'
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/pkgconfig/ainex_vision.pc'
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages'
+[2.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_vision', 'pythonpath')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/hook/pythonpath.ps1'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/hook/pythonpath.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/hook/pythonpath.sh'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/bin'
+[2.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_vision)
+[2.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/package.ps1'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/package.dsv'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/package.sh'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/package.bash'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/ainex_vision/package.zsh'
+[2.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/share/colcon-core/packages/ainex_vision)
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion' for CMake module files
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion' for CMake config files
+[2.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/ainex_motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/servo_service/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_vision/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_neural_control/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/ainex_motion:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_motion/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/servo_service/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/ainex_vision:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_vision/lib/python3.12/site-packages:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/ainex_neural_control:/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ainex_motion build --build-base /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion/build install --record /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/build/ainex_motion/install.log --single-version-externally-managed install_data
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/bin'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib/pkgconfig/ainex_motion.pc'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/lib/python3.12/site-packages'
+[2.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('ainex_motion', 'pythonpath')
+[2.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/hook/pythonpath.ps1'
+[2.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/hook/pythonpath.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/hook/pythonpath.sh'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/bin'
+[2.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ainex_motion)
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/package.ps1'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/package.dsv'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/package.sh'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/package.bash'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/ainex_motion/package.zsh'
+[2.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/ainex_motion/share/colcon-core/packages/ainex_motion)
+[2.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.635s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.644s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.660s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/local_setup.ps1'
+[2.662s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/_local_setup_util_ps1.py'
+[2.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/setup.ps1'
+[2.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/local_setup.sh'
+[2.667s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/_local_setup_util_sh.py'
+[2.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/setup.sh'
+[2.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/local_setup.bash'
+[2.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/setup.bash'
+[2.671s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/local_setup.zsh'
+[2.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/install/setup.zsh'
