@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "servo_service/srv/detail/servo_temp__functions.h"
+#include "servo_service/srv/detail/servo_temp__type_support.h"
 #include "servo_service/srv/detail/servo_temp__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "servo_service/srv/detail/servo_temp__type_support.h"
-#include "servo_service/srv/detail/servo_temp__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/servo_service/servo_service__py
+# Install script for directory: /home/bilhr2025/Downloads/BILHR_T5/build/servo_service/servo_service__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/servo_service")
+  set(CMAKE_INSTALL_PREFIX "/home/bilhr2025/Downloads/BILHR_T5/install/servo_service")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

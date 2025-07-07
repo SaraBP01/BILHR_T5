@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/install/ainex_neural_control'
+    sys.prefix = sys.exec_prefix = '/home/bilhr2025/Downloads/BILHR_T5/install/ainex_neural_control'

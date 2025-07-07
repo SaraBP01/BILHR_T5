@@ -52,8 +52,4 @@ def generate_launch_description():
             name='manual_reward_node',
             output='screen'
         ),
-<<<<<<< HEAD
     ])
-=======
-    ])
->>>>>>> e83f897 (k)

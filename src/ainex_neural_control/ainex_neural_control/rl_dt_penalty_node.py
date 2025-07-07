@@ -122,36 +122,36 @@ class RLDTPenaltyNode(Node):
         self.get_logger().info("All subscriptions created successfully")
 
     def setup_aruco_detector(self):
-        """Setup ArUco detector with extensive error handling and logging"""
         self.get_logger().info("Setting up ArUco detector...")
-        
+
         # Check OpenCV version
-        cv_version = cv2.__version__
-        self.get_logger().info(f"OpenCV version: {cv_version}")
-        
+        cv_version = cv2.__version__.split(".")
+        major = int(cv_version[0])
+        minor = int(cv_version[1])
+
         try:
-            # Try newer OpenCV versions first (4.7+)
-            self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
-            self.aruco_params = cv2.aruco.DetectorParameters()
-            self.get_logger().info("ArUco initialized (OpenCV 4.7+)")
-            
-        except AttributeError:
-            try:
-                # Try older OpenCV versions (4.6 and older)
+            if major >= 4 and minor >= 7:
+                # Use new API (4.7+)
+                self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+                self.aruco_params = cv2.aruco.DetectorParameters()
+                self.use_new_aruco_api = True
+                self.get_logger().info("ArUco initialized with OpenCV 4.7+ API")
+            else:
+                # Use legacy API (4.6 and older)
                 self.aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
                 self.aruco_params = cv2.aruco.DetectorParameters_create()
-                self.get_logger().info("ArUco initialized (OpenCV 4.6 or older)")
-                
-            except Exception as e:
-                self.get_logger().error(f"ArUco initialization failed: {e}")
-                self.aruco_dict = None
-                self.aruco_params = None
-                return
-                
-        if self.aruco_dict is not None and self.aruco_params is not None:
-            self.get_logger().info("ArUco detector successfully initialized")
-        else:
-            self.get_logger().error("ArUco detector initialization failed - will use fallback detection")
+                self.use_new_aruco_api = False
+                self.get_logger().info("ArUco initialized with OpenCV <=4.6 API")
+        except Exception as e:
+            self.get_logger().error(f"ArUco initialization failed: {e}")
+            self.aruco_dict = None
+            self.aruco_params = None
+            self.use_new_aruco_api = False
+                    
+            if self.aruco_dict is not None and self.aruco_params is not None:
+                self.get_logger().info("ArUco detector successfully initialized")
+            else:
+                self.get_logger().error("ArUco detector initialization failed - will use fallback detection")
 
     def joint_callback(self, msg):
         """Callback to receive joint states"""
@@ -207,61 +207,63 @@ class RLDTPenaltyNode(Node):
             self.get_logger().error(f"Traceback: {traceback.format_exc()}")
 
     def detect_multiple_aruco_markers(self, image):
-    
+        """Detect ArUco markers in the given image using OpenCV 4.6+ or 4.7+"""
         if self.aruco_dict is None or self.aruco_params is None:
-            self.get_logger().debug("ArUco not available, using fallback detection")
+            self.get_logger().warn("ArUco dictionary not initialized, using fallback")
             return self.detect_fallback_target(image)
-        
-        try:
-            # Convert to grayscale
-            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            
-            # Detect markers with error handling
-            corners, ids, rejected = None, None, None
-            
-            try:
-                # Try newer OpenCV method first
-                detector = cv2.aruco.ArucoDetector(self.aruco_dict, self.aruco_params)
-                corners, ids, rejected = detector.detectMarkers(gray)
-                
-            except (AttributeError, TypeError):
-                # Fallback to older method
-                corners, ids, rejected = cv2.aruco.detectMarkers(
-                    gray, self.aruco_dict, parameters=self.aruco_params)
-            
-            # Process results
-            if ids is not None and len(ids) > 0:
-                # Process detected markers (simplified for safety)
-                marker_id = ids[0][0]
-                corner = corners[0][0]
-                center_x = int(corner[:, 0].mean())
-                center_y = int(corner[:, 1].mean())
-                
-                # Draw detection
-                cv2.circle(image, (center_x, center_y), 8, (0, 255, 0), 3)
-                cv2.putText(image, f"ID:{marker_id}", 
-                           (center_x + 15, center_y), 
-                           cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-                
-                # Show image
-                cv2.imshow('RL-DT ArUco Detection', image)
-                cv2.waitKey(1)
-                
-                return center_x, marker_id
-            
-            else:
-                # No markers detected
-                cv2.putText(image, "NO MARKERS", (10, 30), 
-                           cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-                cv2.imshow('RL-DT ArUco Detection', image)
-                cv2.waitKey(1)
-                
-                return None, None
-                
-        except Exception as e:
-            self.get_logger().error(f"ArUco detection error: {e}")
-            return None, None
 
+        try:
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+            # Choose detection method based on OpenCV version
+            if getattr(self, "use_new_aruco_api", False):
+                detector = cv2.aruco.ArucoDetector(self.aruco_dict, self.aruco_params)
+                corners, ids, _ = detector.detectMarkers(gray)
+            else:
+                corners, ids, _ = cv2.aruco.detectMarkers(
+                    gray, self.aruco_dict, parameters=self.aruco_params)
+
+            # Draw detections and return center of first marker
+            if ids is not None and len(ids) > 0:
+                self.get_logger().info(f"Detected ArUco IDs: {ids.flatten().tolist()}")
+
+                # Draw all detected markers
+                cv2.aruco.drawDetectedMarkers(image, corners, ids)
+
+                # Use the first detected marker for positioning
+                marker_id = int(ids[0][0])
+                corner = corners[0][0]
+                center_x = int(np.mean(corner[:, 0]))
+                center_y = int(np.mean(corner[:, 1]))
+
+                cv2.circle(image, (center_x, center_y), 8, (0, 255, 0), 3)
+                cv2.putText(image, f"ID:{marker_id}",
+                            (center_x + 10, center_y),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+
+                # Display the image
+                cv2.imshow("RL-DT ArUco Detection", image)
+                cv2.waitKey(1)
+
+                return center_x, marker_id
+
+            else:
+                # No markers found
+                cv2.putText(image, "NO MARKERS", (10, 30),
+                            cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                cv2.imshow("RL-DT ArUco Detection", image)
+                cv2.waitKey(1)
+
+                self.get_logger().warn("No ArUco markers detected.")
+                return None, None
+
+        except Exception as e:
+            self.get_logger().error(f"Error during ArUco detection: {e}")
+            import traceback
+            self.get_logger().error(traceback.format_exc())
+            return None, None
+    
+        
     def detect_fallback_target(self, image):
         """Fallback detection using color detection"""
         try:

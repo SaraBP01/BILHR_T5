@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/ainex_motion/ainex_motion.egg-info/PKG-INFO
-../../build/ainex_motion/ainex_motion.egg-info/SOURCES.txt
-../../build/ainex_motion/ainex_motion.egg-info/dependency_links.txt
-../../build/ainex_motion/ainex_motion.egg-info/entry_points.txt
-../../build/ainex_motion/ainex_motion.egg-info/requires.txt
-../../build/ainex_motion/ainex_motion.egg-info/top_level.txt
-../../build/ainex_motion/ainex_motion.egg-info/zip-safe
 ainex_motion/__init__.py
 ainex_motion/ainex_motion_node.py
 ainex_motion/joint_controller.py

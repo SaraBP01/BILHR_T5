@@ -1,1 +1,1 @@
-/home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/msg/GetServoPositions.msg
+/home/bilhr2025/Downloads/BILHR_T5/src/servo_service/msg/GetServoPositions.msg

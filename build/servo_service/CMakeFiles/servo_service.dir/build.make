@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service
+CMAKE_SOURCE_DIR = /home/bilhr2025/Downloads/BILHR_T5/src/servo_service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/servo_service
+CMAKE_BINARY_DIR = /home/bilhr2025/Downloads/BILHR_T5/build/servo_service
 
 # Utility rule file for servo_service.
 
@@ -66,17 +66,17 @@ include CMakeFiles/servo_service.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/servo_service.dir/progress.make
 
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/msg/ChangeServoPositions.msg
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/msg/SetServoPositions.msg
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/msg/SetJointLock.msg
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/msg/GetServoPositions.msg
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/msg/SetPosture.msg
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/srv/JointLock.srv
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/srv/ServoTemp.srv
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/srv/ServoDeviation.srv
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/srv/ServoVoltage.srv
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/srv/JointPosition.srv
-CMakeFiles/servo_service: /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service/srv/JointRange.srv
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/msg/ChangeServoPositions.msg
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/msg/SetServoPositions.msg
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/msg/SetJointLock.msg
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/msg/GetServoPositions.msg
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/msg/SetPosture.msg
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/srv/JointLock.srv
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/srv/ServoTemp.srv
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/srv/ServoDeviation.srv
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/srv/ServoVoltage.srv
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/srv/JointPosition.srv
+CMakeFiles/servo_service: /home/bilhr2025/Downloads/BILHR_T5/src/servo_service/srv/JointRange.srv
 CMakeFiles/servo_service: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/servo_service: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/servo_service: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -154,6 +154,6 @@ CMakeFiles/servo_service.dir/clean:
 .PHONY : CMakeFiles/servo_service.dir/clean
 
 CMakeFiles/servo_service.dir/depend:
-	cd /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/src/servo_service /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/servo_service /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/servo_service /home/bilhr2025/Downloads/template_tB/ainex_bilhr_ws/build/servo_service/CMakeFiles/servo_service.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bilhr2025/Downloads/BILHR_T5/build/servo_service && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bilhr2025/Downloads/BILHR_T5/src/servo_service /home/bilhr2025/Downloads/BILHR_T5/src/servo_service /home/bilhr2025/Downloads/BILHR_T5/build/servo_service /home/bilhr2025/Downloads/BILHR_T5/build/servo_service /home/bilhr2025/Downloads/BILHR_T5/build/servo_service/CMakeFiles/servo_service.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/servo_service.dir/depend
 

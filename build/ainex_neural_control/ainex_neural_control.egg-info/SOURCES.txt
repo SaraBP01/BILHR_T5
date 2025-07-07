@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/ainex_neural_control/ainex_neural_control.egg-info/PKG-INFO
-../../build/ainex_neural_control/ainex_neural_control.egg-info/SOURCES.txt
-../../build/ainex_neural_control/ainex_neural_control.egg-info/dependency_links.txt
-../../build/ainex_neural_control/ainex_neural_control.egg-info/entry_points.txt
-../../build/ainex_neural_control/ainex_neural_control.egg-info/requires.txt
-../../build/ainex_neural_control/ainex_neural_control.egg-info/top_level.txt
-../../build/ainex_neural_control/ainex_neural_control.egg-info/zip-safe
 ainex_neural_control/__init__.py
 ainex_neural_control/cmac.py
 ainex_neural_control/cmac_network.py
