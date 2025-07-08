@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "servo_service/srv/detail/servo_voltage__struct.h"
 #include "servo_service/srv/detail/servo_voltage__functions.h"
 #include "servo_service/srv/detail/servo_voltage__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "servo_service/srv/detail/servo_voltage__struct.h"
 
 #ifdef __cplusplus
 extern "C"

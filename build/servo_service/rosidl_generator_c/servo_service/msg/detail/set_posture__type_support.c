@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "servo_service/msg/detail/set_posture__struct.h"
-#include "servo_service/msg/detail/set_posture__type_support.h"
 #include "servo_service/msg/detail/set_posture__functions.h"
+#include "servo_service/msg/detail/set_posture__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "servo_service/msg/detail/set_posture__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

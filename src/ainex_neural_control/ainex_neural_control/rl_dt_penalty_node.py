@@ -132,13 +132,13 @@ class RLDTPenaltyNode(Node):
         try:
             if major >= 4 and minor >= 7:
                 # Use new API (4.7+)
-                self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+                self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_5X5_100)
                 self.aruco_params = cv2.aruco.DetectorParameters()
                 self.use_new_aruco_api = True
                 self.get_logger().info("ArUco initialized with OpenCV 4.7+ API")
             else:
                 # Use legacy API (4.6 and older)
-                self.aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
+                self.aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_5X5_100)
                 self.aruco_params = cv2.aruco.DetectorParameters_create()
                 self.use_new_aruco_api = False
                 self.get_logger().info("ArUco initialized with OpenCV <=4.6 API")
